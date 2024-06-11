@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/blue-rectangle-frame-cute-rainbow-pattern-weather-clipart_53876-167341.jpg?size=626&ext=jpg&ga=GA1.1.1887574231.1711670400&semt=sph') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: #e8f5fec7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffed4d;
+    color: black;
+    border: 1px solid #4f6984;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4f6984;
+}
+
+#weather-info {
+    text-align: left;
+}
+
+.dark-mode {
+    background-color: #4f6984;
+    color: #f4f4f4;
+}
+
+.dark-mode .container {
+    background-color: #4f6984;
+}
+
+.dark-mode .container .heading {
+    color: white;
+}
+
+.toggle-btn {
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        margin: 40px 20px;
+        padding: 15px;
+    }
+
+    input[type="text"] {
+        width: 80%;
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
+
+    .toggle-btn {
+        margin-top: 10px;
+    }
+}
+
+/*gb 1. Max-width 768px: tablets and medium-sized devices. 
+It reduces the container margin and padding, 
+and adjusts the input and button sizes.
+2. Max-width 480px: mobile devices. 
+It further reduces the container margin and padding, 
+adjusts the input and button sizes to be more suitable for smaller screens, 
+and reduces the font size of the heading. */
