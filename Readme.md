@@ -99,18 +99,18 @@ const API_KEY = 'your_api_key_here';
 
 <!-- gb https://i.ibb.co/3kGhDxZ/dark.png
 https://i.ibb.co/FzbHfSv/light.jpg
-https://i.ibb.co/LSzwtW8/ww.jpg gb -->
+https://i.ibb.co/LSzwtW8/ww.jpg gb
+https://i.ibb.co/GRm8JF3/darkscr.png
+https://i.ibb.co/ZdQf3wH/lightscr.png -->
 
 
 
 - **Screenshots and Screen Recordings:** 
-![Weather App Light Mode]()
+![Weather App Light Mode](https://i.ibb.co/ZdQf3wH/lightscr.png)
 
+![Weather App Dark Mode](https://i.ibb.co/GRm8JF3/darkscr.png)
 
 ---
-
-
-![Weather App Dark Mode]()
 
 
 - **Live Demo:** Deployed on [Netlify](https://chimerical-duckanoo-95373d.netlify.app/)
